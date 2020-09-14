@@ -6,8 +6,12 @@ import math
 
 
 def average(a: float, b: float, c: float) -> float:
-    return 0.0
-
+    return 0.0 
+a = float(input("Premier Nombre:"))
+b= float(input("Deuxieme Nombre"))
+c=float(input("Troisieme nombre :"))
+moyenne = (a+b+c)/3 
+print("La moyenne est des trois nombres est :",moyenne)
 
 def to_radians(angle_degs: float, angle_mins: float, angle_secs: float) -> float:
     return 0.0
@@ -19,7 +23,6 @@ def to_degrees(angle_rads: float) -> tuple:
 
 def to_celsius(temperature: float) -> float:
     return 0.0
-
 
 def to_farenheit(temperature: float) -> float:
     return 0.0
